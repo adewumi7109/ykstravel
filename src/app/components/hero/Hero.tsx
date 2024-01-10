@@ -21,7 +21,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute inset-0 flex px-4 items-center flex-col justify-center text-white  text-center font-bold">
         <h1 className=' text-2xl md:text-6xl text-cyan-200'>Embark on Seamless Journeys </h1>
-        <p className='mt-5 md:text-1xl'> Effortlessly Navigate Your Visa Application Process with Expert Guidance and Beyond!</p>
+        <p className='mt-5 md:text-1xl'> Effortlessly Navigate  Your Visa Application Process with Expert Guidance and Beyond!</p>
 
       </div>
     </div>
