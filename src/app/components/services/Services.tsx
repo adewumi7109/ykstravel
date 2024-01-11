@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect } from "react";
 import { FaPassport } from "react-icons/fa6";
 import Aos from "aos"
