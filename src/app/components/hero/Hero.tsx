@@ -15,7 +15,7 @@ function Hero() {
       <img
         src="/slideimages/s1.jpg"
         alt="Background"
-        style={{backgroundAttachment: 'fixed'}}
+        
         className="w-[100vw] h-[70vh] md:h-[80vh] object-cover"
       />
       {/* <video src='/airplane_take_off.mp4' className="w-[100vw] h-[70vh] md:h-[80vh] object-cover" autoPlay loop muted/> */}
