@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { FaPassport } from "react-icons/fa6";
-// import Aos from "aos"
-// import "aos/dist/aos.css";
+import Aos from "aos"
+import "aos/dist/aos.css";
 function Services() {
-    // useEffect(() => {
-    //     // Initialize ScrollReveal
-    //     Aos.init();
-    //   }, [])
+    useEffect(() => {
+        // Initialize ScrollReveal
+        Aos.init();
+      }, [])
     return (
         <div className="services  p-4 md:p-10 mt-[3rem]">
             <h1 className="md:text-4xl text-3xl text-center text-cyan-500">Our services</h1>
