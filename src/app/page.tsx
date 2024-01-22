@@ -3,6 +3,9 @@ import Navbar from './components/Navbar'
 import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
 import About from './components/about/About'
+import Why from './components/why-us/Why'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 export default function Home() {
   return (
@@ -11,6 +14,9 @@ export default function Home() {
   <Hero/>
   <About/>
   <Services/>
+  <Why/>
+  <Contact/>
+  <Footer/>
 
  </div>
   )
