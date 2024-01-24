@@ -7,7 +7,7 @@ const Toggle = ({ isOpen, toggleNavbar }:{isOpen:any, toggleNavbar:any}) => {
         className="text-white focus:outline-none"
         onClick={toggleNavbar}
       >
-        {isOpen ? (
+        {isOpen ?  (
           <svg
             className="h-6 w-6 fill-current"
             xmlns="http://www.w3.org/2000/svg"
