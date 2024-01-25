@@ -9,7 +9,7 @@ function Services() {
     //     Aos.init();
     //   }, [])
     return (
-        <div className="services bg-primary  p-4 md:p-10 " id="#services">
+        <div className="services bg-primary  p-4 md:p-10 " id="services">
             <h1 className="md:text-4xl text-3xl text-center mt-[3rem] text-white">Our services</h1>
             <p className=" md:text-1xl text-center text-1xl mt-2 text-white">100% assurances on our services</p>
             <div className="grid mt-[3rem] grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-3 gap-8">

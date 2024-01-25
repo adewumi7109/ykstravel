@@ -1,8 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Contact() {
   return (
-    <section className="bg-gray-100 p-4 md:p-10 py-16">
+    <section id='contact' className="bg-gray-100 p-4 md:p-10 py-16">
     <div className="container mx-auto">
       <h2 className="text-4xl font-bold mb-8 text-center">Contact Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -15,9 +16,14 @@ function Contact() {
           YKSTravel  is happy to assist you!
           </p>
           <ul className=" list-none text-gray-600">
-            <li>Email: ykstravelsltd@gmail.com</li>
-            <li>Phone: +2347062204892</li>
-            <li>Address: BK. OSTC off Dbongan/Ibadan Rd. Osun State</li>
+            <li className='mb-2'>Email: <Link href="mailto:ykstravelsltd@gmail.com">
+   ykstravelsltd@gmail.com
+  </Link></li>
+            
+            <li className='mb-2'>Phone:  <Link href="tel:+2347062204892">
+    +2347062204892
+  </Link></li>
+            <li className='mb-2'>Address: BK. OSTC off Gbongan/Ibadan Rd. Osun State</li>
           </ul>
         </div>
         {/* Right column */}

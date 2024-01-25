@@ -4,7 +4,7 @@ import { FaPassport } from "react-icons/fa6";
 function About() {
     return (
         <>
-        <div >
+        <div id='about'>
             <div className='p-4 md:p-10 shadow-lg pt-[3rem]  pb-[3rem]'>
                 <h1 className='md:text-4xl text-3xl text-center text-primary '>About</h1>
                 <p className='mt-2'>
