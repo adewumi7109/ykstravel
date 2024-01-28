@@ -21,7 +21,7 @@ function Footer() {
   </Link></p>
         </div>
         {/* Center */}
-        <div className="mb-4 md:mb-0">
+        <div className="mb-4 md:mb-0">    
           <h3 className="text-2xl font-bold">Quick Links</h3>
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
             <li><a href="#">Home</a></li>
