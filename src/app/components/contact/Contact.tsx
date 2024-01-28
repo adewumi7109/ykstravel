@@ -122,9 +122,7 @@ function Contact() {
           </div>
           {/* Right column */}
           <form className="bg-white p-8 rounded shadow-md" onSubmit={handleSubmit}>
-            {submissionStatus === 'success' && (
-              <p className="text-green-500">Message sent successfully!</p>
-            )}
+           
             {submissionStatus === 'error' && (
               <p className="text-red-500">
                 Error sending message. Please try again later.
@@ -171,6 +169,9 @@ function Contact() {
               ></textarea>
               {validationErrors.message && <p className="text-red-500">{validationErrors.message}</p>}
             </div>
+            {submissionStatus === 'success' && (
+              <p className="text-green-500">Message sent successfully!</p>
+            )}
             <button
               type="submit"
               className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-700"
