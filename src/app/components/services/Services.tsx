@@ -14,19 +14,20 @@ function Services() {
             <p className=" md:text-1xl text-center text-1xl mt-2 text-white">100% assurances on our services</p>
             <div className="grid mt-[3rem] grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-3 gap-8">
                 <div className="bg-[white]  rounded p-4 shadow-xl  " data-aos="fade-right">
-                    <h1 className="text-2xl text-primary font-bold">School Admission Processing:</h1>
+                    <h1 className="text-2xl text-primary font-bold">Professional Assistance for Working Visa Processing:</h1>
                     <ul className="mt-4 list-disc text-[#696866] pl-4">
-                        <li>Seamless assistance in processing school admissions in Canada, the UK, and Schengen countries.</li>
-                        <li>Personalized guidance throughout the application process for a smooth and hassle-free experience.</li>
-                        <li>Expert handling of documentation and admission requirements.</li>
+                        <li>Our services extend to comprehensive support for working visa applications through a meticulous process led by experienced travel agents.</li>
+                        <li>Tailoring our approach to the specific regulations of destination countries, including but not limited to Canada, the UK, and Schengen nations.</li>
+                        <li>Guiding clients step-by-step through the intricate process, ensuring a successful and timely application and addressing country-specific nuances.</li>
                     </ul>
                 </div>
                 <div className="bg-primary rounded  p-4 shadow-xl text-white" data-aos="fade-left">
-                    <h1 className="text-2xl font-bold">Student Permit Application:</h1>
+                    <h1 className="text-2xl font-bold">
+Student Visa Application Support:</h1>
                     <ul className="mt-4 list-disc pl-4">
-                        <li>Professional support for student permit applications tailored to the specific country&apos;s regulations.</li>
-                        <li>Clear and concise information on eligibility criteria and required documentation.</li>
-                        <li>Step-by-step guidance to ensure a successful and timely application process.</li>
+                        <li>Tailored professional assistance for student visa applications, conforming to the regulations of specific countries like Canada, the UK, and Schengen nations.</li>
+                        <li>Providing clear and concise information on eligibility criteria and the required documentation to ensure a smooth application process.</li>
+                        <li>Step-by-step guidance to ensure a successful and timely student visa application, with special attention to the distinctive requirements of Canada, the UK, and Schengen countries.</li>
                     </ul>
                 </div>
                 <div className=" bg-[white] rounded p-4 shadow-xl " data-aos="fade-right">
