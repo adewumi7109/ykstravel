@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
+import Image from 'next/image';
 
 const Navbar = () => {
   let Links = [
@@ -24,12 +25,14 @@ const Navbar = () => {
     <div className='shadow-md w-full fixed top-0 left-0 z-10'>
       {/* bg-primary */}
       <div className='md:flex items-center justify-between  bg-[white] py-4 md:px-10 px-4'>
-        <div className='font-bold text-2xl text-primary cursor-pointer flex items-center  '>
-          YKSTRAVEL
+        <div className='font-bold  cursor-pointer flex items-center  '>
+       <a href="">
+       <Image alt='yks_logo' src='/yks_logo.png' height={80} width={80}/>
+       </a>
         </div>
         <div
           onClick={toggleMenu}
-          className='text-3xl absolute right-4 top-4 cursor-pointer text-primary  md:hidden'
+          className='text-3xl absolute right-4 top-6 cursor-pointer text-primary  md:hidden'
         >
           {open ? <FaTimes /> : <FaBars />}
         </div>
