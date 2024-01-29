@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/ykslogo.png" />
+    
       {/* <meta name="keywords" content="YKSTravel, ykstravel, YKSTRAVEL"/> */}
 
       </head>
