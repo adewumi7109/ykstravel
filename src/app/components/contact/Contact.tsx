@@ -66,10 +66,10 @@ function Contact() {
     setIsSubmitting(true);
 
     emailjs.send(
-      'service_mkxmbpf',
-      'template_cq35ibb',
+      'service_g9sb1tp',
+      'template_bnxi5ov',
       formData,
-      'eqhQ8-Fgdp3AFWxSG'
+      '_NQ5ErcagF8IO8e48'
     )
       .then((response) => {
         console.log('Email sent successfully:', response);
