@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 
 function Footer() {
@@ -37,8 +37,8 @@ function Footer() {
             <a href="https://api.whatsapp.com/send?phone=2347062204892" className="text-white text-3xl hover:text-gray-400">
               <FaWhatsapp/>
             </a>
-            <a href="#" className="text-white text-3xl hover:text-gray-400">
-            <FaTwitter/>
+            <a href="https://www.instagram.com/yks.travels/" target="_blank" className="text-white text-3xl hover:text-gray-400">
+            <FaInstagram/>
             </a>
             <a href="#" className="text-white text-3xl hover:text-gray-400">
              <FaFacebook/>
